@@ -32,7 +32,7 @@
 
   <!-- Update formula box -->
   <rect x="115" y="200" width="470" height="55" rx="6" fill="#f5f5f5" stroke="#333" stroke-width="1"/>
-  <text x="350" y="222" fill="#333" font-size="12" text-anchor="middle" font-weight="bold">V(s_t) <- V(s_t) + alpha * [ r_t + gamma * V(s_{t+1}) - V(s_t) ]</text>
+  <text x="350" y="222" fill="#333" font-size="12" text-anchor="middle" font-weight="bold">V(s_t) ← V(s_t) + α · [ r_t + γ · V(s_t+1) - V(s_t) ]</text>
   <text x="350" y="244" fill="#666" font-size="10" text-anchor="middle">TD error = (actual reward + estimated future) - current estimate</text>
 
   <!-- Key insight -->
