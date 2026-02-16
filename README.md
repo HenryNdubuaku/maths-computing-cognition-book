@@ -1,7 +1,12 @@
-## Title: Maths, CS and AI Compendium
-## Author: Henry Ndubuaku 
+<img src="images/logo.png" alt="Logo" style="border-radius: 30px; width: 100%;">
 
-Most textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. Over the past 5 years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing to everyone. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners who want to deeply understand the stuff, not just survive an exam/interview. 
+## Overview
+Most textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners looking to deeply understand the stuff, not just survive an exam/interview. 
+
+## Background
+Over the past 5 years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing to everyone. 
+
+## Outline 
 
 | # | Chapter | Summary | Status |
 |---|---------|---------|--------|
@@ -23,4 +28,18 @@ Most textbooks bury good ideas under dense notation, skip the intuition, assume 
 | 16 | Intersecting Fields | quantum ML, neuromorphic ML, AI for finace, AI for bio | Coming |
 | 17 | Henry's Research Findings | I run many hyperfocused experiemts and will share findings | Coming |
 
-Star, watch and share to get content as they drop. Suggest topics via GitHub issues and feel free to PR where you know better!
+## Citation
+```bibtex
+@book{ndubuaku2025compendium,
+  title     = {Maths, CS & AI Compendium},
+  author    = {Henry Ndubuaku},
+  year      = {2026},
+  publisher = {GitHub},
+  url       = {https://github.com/HenryNdubuaku/maths-cs-ai-compendium}
+}
+```
+
+## Contributions
+- Star & watch to get content as they drop.
+- Suggest topics via GitHub issues.
+- PR corrections and better intuition.
