@@ -1,4 +1,4 @@
-## Title: Maths + Computing + AI 
+## Title: Maths, Computing and AI Compendium
 ## Author: Henry Ndubuaku 
 
 Most textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. Over the past 5 years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing to everyone. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners who want to deeply understand the stuff, not just survive an exam/interview. 
