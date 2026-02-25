@@ -94,7 +94,8 @@ for chapter_dir in "chapter "*/; do
   first_file="$(ls "src/ch${num}-${clean_name}/"*.md 2>/dev/null | head -1)"
   if [ -n "$first_file" ]; then
     first_basename="$(basename "$first_file" .md)"
-    sed -i '' "s|${encoded}|ch${num}-${clean_name}/${first_basename}.html|g" src/README.md
+    sed "s|${encoded}|ch${num}-${clean_name}/${first_basename}.html|g" src/README.md > src/README.md.tmp
+    mv src/README.md.tmp src/README.md
   fi
 done
 
