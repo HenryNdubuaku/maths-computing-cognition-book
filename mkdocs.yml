@@ -1,0 +1,188 @@
+site_name: "Maths, CS & AI Compendium"
+site_description: "An open, intuition-first textbook covering mathematics, computer science, and artificial intelligence from the ground up."
+site_author: "Henry Ndubuaku"
+repo_url: "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
+repo_name: "HenryNdubuaku/maths-cs-ai-compendium"
+
+docs_dir: "."
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_fenced_format
+            kwds:
+              mode: generic
+              tag: div
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
+
+nav:
+  - Home: README.md
+
+  - Vectors:
+    - Vector Spaces: "chapter 01: vectors/01. vector spaces.md"
+    - Vector Properties: "chapter 01: vectors/02. vector properties.md"
+    - Norms and Metrics: "chapter 01: vectors/03. norms and metrics.md"
+    - Products: "chapter 01: vectors/04. products.md"
+    - Basis and Duality: "chapter 01: vectors/05. basis and duality.md"
+
+  - Matrices:
+    - Matrix Properties: "chapter 02: matrices/01. matrix properties.md"
+    - Matrix Types: "chapter 02: matrices/02. matrix types.md"
+    - Operations: "chapter 02: matrices/03. operations.md"
+    - Linear Transformations: "chapter 02: matrices/04. linear transformations.md"
+    - Decompositions: "chapter 02: matrices/05. decompositions.md"
+
+  - Calculus:
+    - Differential Calculus: "chapter 03: calculus/01. differential calculus.md"
+    - Integral Calculus: "chapter 03: calculus/02. integral calculus.md"
+    - Multivariate Calculus: "chapter 03: calculus/03. multivariate calculus.md"
+    - Function Approximation: "chapter 03: calculus/04. function approximation.md"
+    - Optimisation: "chapter 03: calculus/05. optimisation.md"
+
+  - Statistics:
+    - Fundamentals: "chapter 04: statistics/01. fundamentals.md"
+    - Measures: "chapter 04: statistics/02. measures.md"
+    - Sampling: "chapter 04: statistics/03. sampling.md"
+    - Hypothesis Testing: "chapter 04: statistics/04. hypothesis testing.md"
+    - Inference: "chapter 04: statistics/05. inference.md"
+
+  - Probability:
+    - Counting: "chapter 05: probability/01. counting.md"
+    - Probability Concepts: "chapter 05: probability/02. probability concepts.md"
+    - Distributions: "chapter 05: probability/03. distributions.md"
+    - Bayesian: "chapter 05: probability/04. bayesian.md"
+    - Information Theory: "chapter 05: probability/05. information theory.md"
+
+  - Machine Learning:
+    - Classical Machine Learning: "chapter 06: machine learning/01. classical machine learning.md"
+    - Gradient Machine Learning: "chapter 06: machine learning/02. gradient machine learning.md"
+    - Deep Learning: "chapter 06: machine learning/03. deep learning.md"
+    - Reinforcement Learning: "chapter 06: machine learning/04. reinforcement learning.md"
+    - Distributed Deep Learning: "chapter 06: machine learning/05. distributed deep learning.md"
+
+  - Computational Linguistics:
+    - Linguistic Foundations: "chapter 07: computational linguistics/01. linguistic foundations.md"
+    - Text Processing and Classic NLP: "chapter 07: computational linguistics/02. text processing and classic NLP.md"
+    - Embeddings and Sequence Models: "chapter 07: computational linguistics/03. embeddings and sequence models.md"
+    - Transformers and Language Models: "chapter 07: computational linguistics/04. transformers and language models.md"
+    - Advanced Text Generation: "chapter 07: computational linguistics/05. advanced text generation.md"
+
+  - Computer Vision:
+    - Image Fundamentals: "chapter 08: computer vision/01. image fundamentals.md"
+    - Convolutional Networks: "chapter 08: computer vision/02. convolutional networks.md"
+    - Object Detection and Segmentation: "chapter 08: computer vision/03. object detection and segmentation.md"
+    - Vision Transformers and Generation: "chapter 08: computer vision/04. vision transformers and generation.md"
+    - Video and 3D Vision: "chapter 08: computer vision/05. video and 3D vision.md"
+
+  - Audio and Speech:
+    - Digital Signal Processing: "chapter 09: audio and speech/01. digital signal processing.md"
+    - Automatic Speech Recognition: "chapter 09: audio and speech/02. automatic speech recognition.md"
+    - Text to Speech and Voice: "chapter 09: audio and speech/03. text to speech and voice.md"
+    - Speaker and Audio Analysis: "chapter 09: audio and speech/04. speaker and audio analysis.md"
+    - Source Separation and Noise: "chapter 09: audio and speech/05. source separation and noise.md"
+
+  - Multimodal Learning:
+    - Multimodal Representations: "chapter 10: multimodal learning/01. multimodal representations.md"
+    - Vision Language Models: "chapter 10: multimodal learning/02. vision language models.md"
+    - Image and Video Tokenisation: "chapter 10: multimodal learning/03. image and video tokenisation.md"
+    - Cross-Modal Generation: "chapter 10: multimodal learning/04. cross-modal generation.md"
+    - Unified Multimodal Architectures: "chapter 10: multimodal learning/05. unified multimodal architectures.md"
+
+  - Autonomous Systems:
+    - Perception: "chapter 11: autonomous systems/01. perception.md"
+    - Robot Learning: "chapter 11: autonomous systems/02. robot learning.md"
+    - Vision-Language-Action Models: "chapter 11: autonomous systems/03. vision-language-action models.md"
+    - Self-Driving: "chapter 11: autonomous systems/04. self-driving.md"
+    - Space and Extreme Robotics: "chapter 11: autonomous systems/05. space and extreme robotics.md"
+
+  - Computing and OS:
+    - Discrete Maths: "chapter 12: computing and OS/01. discrete maths.md"
+    - Computer Architecture: "chapter 12: computing and OS/02. computer architecture.md"
+    - Operating Systems: "chapter 12: computing and OS/03. operating systems.md"
+    - Concurrency and Parallelism: "chapter 12: computing and OS/04. concurrency and parallelism.md"
+    - Programming Languages: "chapter 12: computing and OS/05. programming languages.md"
+
+  - Data Structures and Algorithms:
+    - Arrays and Hashing: "chapter 13: data structures and algorithms/01. arrays and hashing.md"
+    - Linked Lists, Stacks, and Queues: "chapter 13: data structures and algorithms/02. linked lists, stacks, and queues.md"
+    - Trees: "chapter 13: data structures and algorithms/03. trees.md"
+    - Graphs: "chapter 13: data structures and algorithms/04. graphs.md"
+    - Sorting and Search: "chapter 13: data structures and algorithms/05. sorting and search.md"
+
+  - SIMD and GPU Programming:
+    - Hardware Fundamentals: "chapter 14: SIMD and GPU programming/01. hardware fundamentals.md"
+    - ARM and NEON: "chapter 14: SIMD and GPU programming/02. ARM and NEON.md"
+    - x86 and AVX: "chapter 14: SIMD and GPU programming/03. x86 and AVX.md"
+    - GPU Architecture and CUDA: "chapter 14: SIMD and GPU programming/04. GPU architecture and CUDA.md"
+    - Triton, TPUs, and Vulkan: "chapter 14: SIMD and GPU programming/05. triton, TPUs, and Vulkan.md"
+
+  - Systems Design:
+    - Systems Design Fundamentals: "chapter 15: systems design/01. systems design fundamentals.md"
+    - Cloud Computing: "chapter 15: systems design/02. cloud computing.md"
+    - Large Scale Infrastructure: "chapter 15: systems design/03. large scale infrastructure.md"
+    - ML Systems Design: "chapter 15: systems design/04. ML systems design.md"
+    - ML Design Examples: "chapter 15: systems design/05. ML design examples.md"
+
+  - Inference:
+    - Quantisation: "chapter 16: inference/01. quantisation.md"
+    - Efficient Architectures: "chapter 16: inference/02. efficient architectures.md"
+    - Serving and Batching: "chapter 16: inference/03. serving and batching.md"
+    - Edge Inference: "chapter 16: inference/04. edge inference.md"
+    - Scaling and Deployment: "chapter 16: inference/05. scaling and deployment.md"
+
+  - Intersecting Fields:
+    - Quantum Machine Learning: "chapter 17: intersecting fields/01. quantum machine learning.md"
+    - Neuromorphic Computing: "chapter 17: intersecting fields/02. neuromorphic computing.md"
+    - AI for Finance: "chapter 17: intersecting fields/03. AI for finance.md"
+    - AI for Biology: "chapter 17: intersecting fields/04. AI for biology.md"
+    - Emerging Intersections: "chapter 17: intersecting fields/05. emerging intersections.md"

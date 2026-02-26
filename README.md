@@ -1,3 +1,5 @@
+# Maths, CS & AI Compendium
+
 <img src="images/logo.png" alt="Logo" style="border-radius: 30px; width: 100%;">
 
 ## Overview
