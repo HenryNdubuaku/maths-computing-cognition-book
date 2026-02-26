@@ -42,13 +42,3 @@ Over the past years working in AI/ML, I filled notebooks with intuition first, r
   url       = {https://github.com/HenryNdubuaku/maths-cs-ai-compendium}
 }
 ```
-
-## Contributions
-- Star & watch to get content as they drop.
-- Suggest topics via GitHub issues.
-- PR corrections and better intuition.
-- Create SVG images in `../images/` for all diagrams. 
-- For equations, use ` ```math ` fenced code blocks (NOT `$$`)
-- For display math — GitHub escapes `\\` inside `$$`, breaking matrices. 
-- Inline math `$...$` is fine for simple expressions but move anything with `\\` into a ` ```math ` block. 
-- Use `\ast` instead of `*` for conjugate/adjoint in inline math.
