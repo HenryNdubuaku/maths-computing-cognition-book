@@ -12,16 +12,16 @@ Over the past years working in AI/ML, I filled notebooks with intuition first, r
 
 | # | Chapter | Summary | Status |
 |---|---------|---------|--------|
-| 01 | [Vectors](chapter%2001%3A%20vectors) | Spaces, magnitude, direction, norms, metrics, dot/cross/outer products, basis, duality | Available |
-| 02 | [Matrices](chapter%2002%3A%20matrices) | Properties, special types, operations, linear transformations, decompositions (LU, QR, SVD) | Available |
-| 03 | [Calculus](chapter%2003%3A%20calculus) | Derivatives, integrals, multivariate calculus, Taylor approximation, optimisation and gradient descent | Available |
-| 04 | [Statistics](chapter%2004%3A%20statistics) | Descriptive measures, sampling, central limit theorem, hypothesis testing, confidence intervals | Available |
-| 05 | [Probability](chapter%2005%3A%20probability) | Counting, conditional probability, distributions, Bayesian methods, information theory | Available |
-| 06 | [Machine Learning](chapter%2006%3A%20machine%20learning) | Classical ML, gradient methods, deep learning, reinforcement learning, distributed training | Available |
-| 07 | [Computational Linguistics](chapter%2007%3A%20computational%20linguistics) | syntax, semantics, pragmatics, NLP, language models, RNNs, CNNs, attention, transformers, text diffusion, text OCR, MoE, SSMs, modern LLM architectures, NLP evaluation | Available |
-| 08 | [Computer Vision](chapter%2008%3A%20computer%20vision) | image processing, object detection, segmentation, video processing, SLAM, CNNs, vision transformers, diffusion, flow matching, VR/AR | Available |
-| 09 | [Audio & Speech](chapter%2009%3A%20audio%20and%20speech) | DSP, ASR, TTS, voice & acoustic activity detection, diarisation, source separation, active noise cancellation, wavenet, conformer | Available |
-| 10 | [Multimodal Learning](chapter%2010%3A%20multimodal%20learning) | fusion strategies, contrastive learning, CLIP, VLMs, image/video tokenisation, cross-modal generation, unified architectures, world models | Available |
+| 01 | [Vectors](chapter%2001%3A%20vectors/01.%20vector%20spaces.md) | Spaces, magnitude, direction, norms, metrics, dot/cross/outer products, basis, duality | Available |
+| 02 | [Matrices](chapter%2002%3A%20matrices/01.%20matrix%20properties.md) | Properties, special types, operations, linear transformations, decompositions (LU, QR, SVD) | Available |
+| 03 | [Calculus](chapter%2003%3A%20calculus/01.%20differential%20calculus.md) | Derivatives, integrals, multivariate calculus, Taylor approximation, optimisation and gradient descent | Available |
+| 04 | [Statistics](chapter%2004%3A%20statistics/01.%20fundamentals.md) | Descriptive measures, sampling, central limit theorem, hypothesis testing, confidence intervals | Available |
+| 05 | [Probability](chapter%2005%3A%20probability/01.%20counting.md) | Counting, conditional probability, distributions, Bayesian methods, information theory | Available |
+| 06 | [Machine Learning](chapter%2006%3A%20machine%20learning/01.%20classical%20machine%20learning.md) | Classical ML, gradient methods, deep learning, reinforcement learning, distributed training | Available |
+| 07 | [Computational Linguistics](chapter%2007%3A%20computational%20linguistics/01.%20linguistic%20foundations.md) | syntax, semantics, pragmatics, NLP, language models, RNNs, CNNs, attention, transformers, text diffusion, text OCR, MoE, SSMs, modern LLM architectures, NLP evaluation | Available |
+| 08 | [Computer Vision](chapter%2008%3A%20computer%20vision/01.%20image%20fundamentals.md) | image processing, object detection, segmentation, video processing, SLAM, CNNs, vision transformers, diffusion, flow matching, VR/AR | Available |
+| 09 | [Audio & Speech](chapter%2009%3A%20audio%20and%20speech/01.%20digital%20signal%20processing.md) | DSP, ASR, TTS, voice & acoustic activity detection, diarisation, source separation, active noise cancellation, wavenet, conformer | Available |
+| 10 | [Multimodal Learning](chapter%2010%3A%20multimodal%20learning/01.%20multimodal%20representations.md) | fusion strategies, contrastive learning, CLIP, VLMs, image/video tokenisation, cross-modal generation, unified architectures, world models | Available |
 | 11 | Autonomous Systems | perception, robot learning, VLAs, self-driving cars, space robots | Coming |
 | 12 | Computing & OS | discreet maths, computer architecture, operating systems, RAM, concurrency, parallelism, programming languages | Coming |
 | 13 | Data Structures & Algorithms | arrays, trees, graph, search, sorting, hashmaps | Coming |
